@@ -12,13 +12,13 @@
       const CHICKEN_PRICE = 10.95;
       const SALES_TAX = 0.07;
 
-      document.getElementById("chicke").onchange = calcTotal();
+      document.getElementById("chicken").onclick = calcTotal;
 
       function calcTotal()
       {
          let cost = 0;
 
-         let BuyChicken = document.getElementById("chicken").ariaChecked;
+         let BuyChicken = document.getElementById("chicken").checked;
 
          /*
          if(BuyChicken == true)
